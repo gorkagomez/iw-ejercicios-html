@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Ejercicio 3</title></head>
+  <h1>Reserva de sociedad</h1>
+  <p>Rellena el siguiente formulario para reservar la sociedad para un dia en concreto</p>
+   
+  <form>
+      <fieldset>
+          <legend>Datos del usuario</legend>
+       Nombre <input type="text" name="user_name"></br>
+        Eres socio?</br>
+        <input type="radio" id="socio" name="r1" value="1">Si, soy socio 
+        <input type="radio" id="nosocio" name="r2" value="0">No soy socio </br>
+        Email <input type="text" name="user_name"></br>
+        Contraseña <input type="text" name="user_name"></br>
+    </fieldset>
+    <fieldset>
+        <legend>Datos de la reserva</legend>
+     Edad <select id="groups" name="groups"></br>
+      <optgroup>
+          <option>Mayor de 18</option>
+          <option>Menor de 18</option>
+      </optgroup>
+      </select>
+      <p>Selecciona la fecha y hora de reserva:</p>
+      <input type="date" name="date">
+      <input type="time" name="time">
+     </br>
+        <textarea name="comentarios" rows="10"
+        cols="50">comentarios</textarea>
+        </fieldset>
+</br> 
+    Acepto las condicones<input type="checkbox" name="condicones" value="Acepto"></br>
+    <input type="button" name="Enviar" value="ENVIAR">
+
+      
+  
+   </form>
+  </html>
